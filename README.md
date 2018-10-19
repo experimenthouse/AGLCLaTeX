@@ -25,4 +25,3 @@ Some of the general rules are up to the author to implement, such as footnote po
 | DD Month YYYY dates   | Use Babel Australian parameter                                       |
 | Multiple authors      | Separate with commas and 'and', with 'et al' for more than three     |
 | Titles and headings   | Provide a custom document class                                      |
-|-----------------------|----------------------------------------------------------------------|
