@@ -11,6 +11,7 @@ The Australian Guide to Legal Citation is a law-focused citation style that reli
 
 Some of the general rules are up to the author to implement, such as footnote positioning, but others can be implemented by the Biblatex style.
 
+| Rule                  | Implementation                                                       |
 |-----------------------|----------------------------------------------------------------------|
 | Multiple sources      | Separate sources with a semicolon (';')                              |
 | Full stops            | Automatically add a full stop at the end of the footnote             |
