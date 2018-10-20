@@ -5,7 +5,7 @@ Biblatex style for the Australian Guide to Legal Citation
 
 I made a nearly-complete Biblatex style some years ago, but was never fully happy with it. This is an attempt to start again from the ground up.
 
-The Australian Guide to Legal Citation is a law-focused citation style that relies on footnotes, and usually does not include a bibliography. It is one of the more flexible and easy-to-use citation styles, with clear and simple rules.
+The Australian Guide to Legal Citation is a law-focused citation style that relies on footnotes, and usually does not include a bibliography (but can). It is one of the more flexible and easy-to-use citation styles, with clear and simple rules.
 
 ## General rules
 
@@ -25,3 +25,4 @@ Some of the general rules are up to the author to implement, such as footnote po
 | DD Month YYYY dates   | Use Babel Australian parameter                                       |
 | Multiple authors      | Separate with commas and 'and', with 'et al' for more than three     |
 | Titles and headings   | Provide a custom document class                                      |
+| Bibliographies        | Utilise some form of taxonomy                                        |
