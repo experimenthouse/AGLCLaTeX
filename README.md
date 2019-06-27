@@ -7,14 +7,18 @@ I made a nearly-complete Biblatex style some years ago, but was never fully happ
 
 The Australian Guide to Legal Citation is a law-focused citation style that relies on footnotes, and usually does not include a bibliography (but can). It is one of the more flexible and easy-to-use citation styles, with clear and simple rules.
 
+## Observations
+
+Rather than use footnotes automatically, it may be better to provide a separate citation command that can be wrapped within a footnote, such as `\footnote{\cite{ab2000}}` to allow in-text citations. This may have implications for citing sources above and below because the footnote number will have to be captured.
+
 ## General rules
 
 Some of the general rules are up to the author to implement, such as footnote positioning, but others can be implemented by the Biblatex style.
 
 | Rule                  | Implementation                                                       |
 |-----------------------|----------------------------------------------------------------------|
-| Multiple sources      | Separate sources with a semicolon (';')                              |
-| Full stops            | Automatically add a full stop at the end of the footnote             |
+| Multiple sources      | Separate sources with a semicolon (';') unless separate introduction |
+| Full stops            | Automatically add a full stop at the end of the citation             |
 | Pinpoint references   | Special command for paragraph pinpoints                              |
 | Introductory signals  | Special commands for introductory signals                            |
 | Quotes/citations      | Special commands for sources referring to other sources              |
